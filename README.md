@@ -3,7 +3,7 @@ Useful scripts and apps to use with Azure DevOps
 
 ## PowerShell
 
-New-TestBatchesFromStatistics.ps1 -BuildDefinition *\<int\>* -Organization *\<string\>* -Project *\<string\>* \[-OutputPath *\<path\>*\] \[-PersonalAccessToken *\<string\>*\] \[-BatchSize *int*]
+New-TestBatchesFromStatistics.ps1 -BuildDefinition *\<int\>* -Organization *\<string\>* -Project *\<string\>* \[-OutputPath *\<path\>*\] \[-PersonalAccessToken *\<string\>*\] \[-BatchSize \<*int*\>]
 
 Fetches test statistics from the previous successful build and creates a JSON output file that can be used to split tests evenly among *BatchSize* test phases (exercise left to the user).
 
